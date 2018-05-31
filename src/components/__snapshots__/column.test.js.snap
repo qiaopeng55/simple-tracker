@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Column renders properly 1`] = `
+<div
+  className="column"
+>
+  <div
+    className="column__header"
+  >
+    todo
+  </div>
+  <ul
+    className="cardContainer"
+  >
+    <Connect(DropTarget(DragSource(Card)))
+      columnId={1}
+      id={1}
+      key="1"
+    />
+    <Connect(DropTarget(DragSource(Card)))
+      columnId={1}
+      id={2}
+      key="2"
+    />
+    <Connect(DropTarget(DragSource(Card)))
+      columnId={1}
+      id={3}
+      key="3"
+    />
+  </ul>
+  <a
+    className="column__footer"
+    onClick={[Function]}
+  >
+    Add a card...
+  </a>
+</div>
+`;

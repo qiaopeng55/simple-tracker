@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardForm renders properly 1`] = `
+<styled.div>
+  <textarea
+    autoFocus={true}
+    name="text"
+    onChange={[Function]}
+    value="task 7"
+  />
+  <div
+    className="actions"
+  >
+    <input
+      onClick={[Function]}
+      type="submit"
+      value="Save"
+    />
+    <div
+      className="cancel"
+      onClick={[Function]}
+    >
+      <img
+        alt="deleteButton"
+        src="delete-button.svg"
+      />
+    </div>
+  </div>
+</styled.div>
+`;

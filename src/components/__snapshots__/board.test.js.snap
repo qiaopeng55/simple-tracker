@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board renders properly 1`] = `
+<styled.div>
+  <div
+    id="header"
+  >
+    Simple Issue Tracker
+  </div>
+  <styled.div>
+    <Connect(DropTarget(Column))
+      cards={
+        Array [
+          Object {
+            "columnId": 1,
+            "id": 1,
+            "text": "task 1",
+          },
+          Object {
+            "columnId": 1,
+            "id": 2,
+            "text": "task 2",
+          },
+          Object {
+            "columnId": 1,
+            "id": 3,
+            "text": "task 3",
+          },
+        ]
+      }
+      id={1}
+      key="1"
+      title="todo"
+    />
+    <Connect(DropTarget(Column))
+      cards={
+        Array [
+          Object {
+            "columnId": 2,
+            "id": 4,
+            "text": "task 4",
+          },
+          Object {
+            "columnId": 2,
+            "id": 5,
+            "text": "task 5",
+          },
+          Object {
+            "columnId": 2,
+            "id": 6,
+            "text": "task 6",
+          },
+          Object {
+            "columnId": 2,
+            "id": 7,
+            "text": "task 7",
+          },
+        ]
+      }
+      id={2}
+      key="2"
+      title="in progress"
+    />
+    <Connect(DropTarget(Column))
+      cards={
+        Array [
+          Object {
+            "columnId": 3,
+            "id": 8,
+            "text": "task 8",
+          },
+          Object {
+            "columnId": 3,
+            "id": 9,
+            "text": "task 9",
+          },
+        ]
+      }
+      id={3}
+      key="3"
+      title="done"
+    />
+  </styled.div>
+</styled.div>
+`;

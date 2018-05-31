@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders properly 1`] = `
+<li>
+  <styled.div>
+    <div
+      className="task__title"
+    >
+      task 1
+    </div>
+    <div
+      className="action edit"
+      onClick={[Function]}
+    >
+      <img
+        alt="edit"
+        src="pencil-edit-button.svg"
+      />
+    </div>
+    <div
+      className="action delete"
+      onClick={[Function]}
+    >
+      <img
+        alt="delete"
+        src="delete-button.svg"
+      />
+    </div>
+  </styled.div>
+</li>
+`;
