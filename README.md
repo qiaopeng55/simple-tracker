@@ -15,7 +15,7 @@ You can view a live demo at https://simple-tracker.herokuapp.com
 
 To get the frontend running locally:
 
-- unzip the file
+- clone the repository
 - `yarn install` to install all dependencies
 - `yarn start` to start the local server (this project uses create-react-app)
 
